@@ -1,5 +1,6 @@
 CC = c++
 CFLAGS = -Wall -Wextra -std=c++17 -O3 
+
 INCLUDES = -I/opt/homebrew/opt/openssl@3/include
 LIBS = -L/opt/homebrew/opt/openssl@3/lib -lssl -lcrypto
 
